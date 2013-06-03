@@ -24,7 +24,8 @@ Simply copy RoundedCornerView.h/.m into your project.
 
 For demo app:
 
-```git clone [git-repo-url] roundedcorner
+```
+git clone [git-repo-url] roundedcorner
 cd roundedcorner
 open RoundedCornerDemo.xcodeproj
 ```

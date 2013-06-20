@@ -41,7 +41,7 @@
     } else {
         self.roundedCornerView.backgroundColor = self.backgroundPicker.resultColor;
     }
-	[ self dismissModalViewControllerAnimated: YES ];
+	[ self dismissViewControllerAnimated:YES completion:nil];
 }
 - (IBAction)cornerRadiusChanged:(id)sender
 {

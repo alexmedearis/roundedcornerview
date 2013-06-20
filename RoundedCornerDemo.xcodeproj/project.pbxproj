@@ -22,8 +22,6 @@
 		00E34FA01648BCCC00C010D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E34F9F1648BCCC00C010D9 /* SenTestingKit.framework */; };
 		00E34FA11648BCCC00C010D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E34F781648BCCB00C010D9 /* UIKit.framework */; };
 		00E34FA21648BCCC00C010D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E34F7A1648BCCB00C010D9 /* Foundation.framework */; };
-		00E34FAA1648BCCC00C010D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00E34FA81648BCCC00C010D9 /* InfoPlist.strings */; };
-		00E34FAD1648BCCC00C010D9 /* RoundedCornerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E34FAC1648BCCC00C010D9 /* RoundedCornerDemoTests.m */; };
 		00E34FB81648BCFD00C010D9 /* RoundedCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E34FB71648BCFD00C010D9 /* RoundedCornerView.m */; };
 		00E34FF61648CE4100C010D9 /* InfColorBarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E34FE91648CE4100C010D9 /* InfColorBarPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
 		00E34FF71648CE4100C010D9 /* InfColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E34FEB1648CE4100C010D9 /* InfColorIndicatorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc "; }; };
@@ -64,10 +62,6 @@
 		00E34F971648BCCB00C010D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		00E34F9E1648BCCC00C010D9 /* RoundedCornerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundedCornerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E34F9F1648BCCC00C010D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		00E34FA71648BCCC00C010D9 /* RoundedCornerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundedCornerDemoTests-Info.plist"; sourceTree = "<group>"; };
-		00E34FA91648BCCC00C010D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00E34FAB1648BCCC00C010D9 /* RoundedCornerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerDemoTests.h; sourceTree = "<group>"; };
-		00E34FAC1648BCCC00C010D9 /* RoundedCornerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerDemoTests.m; sourceTree = "<group>"; };
 		00E34FB61648BCFD00C010D9 /* RoundedCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedCornerView.h; sourceTree = "<group>"; };
 		00E34FB71648BCFD00C010D9 /* RoundedCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedCornerView.m; sourceTree = "<group>"; };
 		00E34FE81648CE4100C010D9 /* InfColorBarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfColorBarPicker.h; sourceTree = "<group>"; };
@@ -114,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				00E34F7E1648BCCB00C010D9 /* RoundedCornerDemo */,
-				00E34FA51648BCCC00C010D9 /* RoundedCornerDemoTests */,
 				00E34F771648BCCB00C010D9 /* Frameworks */,
 				00E34F751648BCCB00C010D9 /* Products */,
 			);
@@ -167,25 +160,6 @@
 				00E34F8A1648BCCB00C010D9 /* Default.png */,
 				00E34F8C1648BCCB00C010D9 /* Default@2x.png */,
 				00E34F8E1648BCCB00C010D9 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		00E34FA51648BCCC00C010D9 /* RoundedCornerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E34FAB1648BCCC00C010D9 /* RoundedCornerDemoTests.h */,
-				00E34FAC1648BCCC00C010D9 /* RoundedCornerDemoTests.m */,
-				00E34FA61648BCCC00C010D9 /* Supporting Files */,
-			);
-			path = RoundedCornerDemoTests;
-			sourceTree = "<group>";
-		};
-		00E34FA61648BCCC00C010D9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E34FA71648BCCC00C010D9 /* RoundedCornerDemoTests-Info.plist */,
-				00E34FA81648BCCC00C010D9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -296,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E34FAA1648BCCC00C010D9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E34FAD1648BCCC00C010D9 /* RoundedCornerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,14 +349,6 @@
 				00E34F941648BCCB00C010D9 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		00E34FA81648BCCC00C010D9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00E34FA91648BCCC00C010D9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -516,6 +480,7 @@
 				00E34FB21648BCCC00C010D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E34FB31648BCCC00C010D9 /* Build configuration list for PBXNativeTarget "RoundedCornerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +489,7 @@
 				00E34FB51648BCCC00C010D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
